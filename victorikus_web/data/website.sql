@@ -1,0 +1,1 @@
+update website set active=false where name='My Website';
