@@ -22,7 +22,7 @@
     'version': '1.0.0',
 
     # any module necessary for this one to work correctly
-    'depends': ['base', 'website', 'website_sale', 'website_sale_stock', 'account', 'stock'],
+    'depends': ['base', 'website', 'website_sale', 'website_sale_stock', 'account', 'stock', 'contacts'],
 
     'installable': True,
 
@@ -30,15 +30,17 @@
 
     # always loaded
     'data': [
+        'views/landing_page.xml',
         'data/res.partner.csv',
         'data/res.company.csv',
-        'views/home_page.xml',
-        'data/res.lang.csv',
-        'data/website.csv',
+        'data/res.lang.xml',
+        'data/website.xml',
         'data/website.page.csv',
         'data/product.template.csv',
         'data/res.users.csv',
+        'data/res.groups.xml',
         'data/website.page.sql',
+        'data/no_update.sql',
     ],
     # only loaded in demonstration mode
     'demo': [
