@@ -35,12 +35,10 @@
         'views/home_page.xml',
         'data/res.lang.csv',
         'data/website.csv',
+        'data/website.page.sql',
         'data/website.page.csv',
         'data/product.template.csv',
         'data/res.users.csv',
-        'data/res.company.sql',
-        'data/website.sql',
-
     ],
     # only loaded in demonstration mode
     'demo': [

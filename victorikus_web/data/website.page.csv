@@ -1,2 +1,2 @@
-"id","is_published","is_in_menu","name","website_id","website_indexed","view_id/id","priority","mode"
-website_main_page,"","","Victorikus",Victorikus,"True",victorikus_web.home_page,"16","primary"
+"id","is_published","is_in_menu","name","website_id","website_indexed","view_id/id","priority","mode","url","is_homepage"
+victorikus_web.home,True,False,"Victorikus",Victorikus,"True",victorikus_web.home_page,"16","primary","/","True"

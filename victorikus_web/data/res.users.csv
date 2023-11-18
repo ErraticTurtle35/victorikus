@@ -1,8 +1,3 @@
 "id",company_id/id,"lang","name","login","login_date","company_ids/id"
-base.user_admin,victorikus_web.victorikus_company,es_ES,Administrator,admin,"","victorikus_web.victorikus_company,base.main_company"
-user_vlad,victorikus_web.victorikus_company,es_ES,Vlad,vlad,"",victorikus_web.victorikus_company
-user_karla,victorikus_web.victorikus_company,es_ES,Karla,karla,"",victorikus_web.victorikus_company
-base.default_user,victorikus_web.victorikus_company,es_ES,Default User Template,default,"",victorikus_web.victorikus_company
-base.user_root,victorikus_web.victorikus_company,es_ES,OdooBot,__system__,"",victorikus_web.victorikus_company
-base.template_portal_user_id,victorikus_web.victorikus_company,es_ES,Portal User Template,portaltemplate,"",victorikus_web.victorikus_company
-base.public_user,victorikus_web.victorikus_company,es_ES,Public user,public,"",victorikus_web.victorikus_company
+user_vlad,base.main_company,es_ES,Vlad,vlad,"",base.main_company
+user_karla,base.main_company,es_ES,Karla,karla,"",base.main_company

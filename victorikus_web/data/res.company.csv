@@ -1,2 +1,2 @@
 "id","partner_id/id","name","sequence","country_id","city","street","website","email","phone","social_facebook","social_instagram"
-victorikus_company,victorikus_respartner_3,Victorikus,10,Bolivia,Santa Cruz de la Sierra,C/SanSebástian N°154,https://victorikus.com,victorikus@gmail.com,+591 69093686,https://www.facebook.com/profile.php?id=61550068686052,https://www.instagram.com/victorikustres/
+base.main_company,base.main_partner,Victorikus,10,Bolivia,Santa Cruz de la Sierra,C/SanSebástian N°154,https://victorikus.com,victorikus@gmail.com,+591 69093686,https://www.facebook.com/profile.php?id=61550068686052,https://www.instagram.com/victorikustres/

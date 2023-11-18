@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <odoo>
-  <data>
-    <record model="ir.ui.view" id="home_page">
-      <field name="name">Home</field>
-      <field name="type">qweb</field>
-      <field name="arch" type="xml">
-        <tree></tree>
-      </field>
-    </record>
-  </data>
+    <data>
+        <record model="ir.ui.view" id="victorikus_web.home_page">
+            <field name="name">Home</field>
+            <field name="type">qweb</field>
+            <field name="arch" type="xml">
+                <t name="Home page" t-name="victorikus_web.home_page">
+                    <t t-call="website.layout">
+                        <t t-set="pageName" t-value="'homepage'"/>
+                        <h1>Hello World!</h1>
+                    </t>
+                </t>
+            </field>
+        </record>
+    </data>
 </odoo>
