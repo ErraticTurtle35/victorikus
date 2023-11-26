@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="victorikus_footer" name="footer" inherit_id="victorikus_web.landing_page">
+        <xpath expr="//div[@id='footer']" position="replace">
+            <h1>Hello World!</h1>
+        </xpath>
+    </template>
+</odoo>

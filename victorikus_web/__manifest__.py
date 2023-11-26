@@ -31,6 +31,7 @@
     # always loaded
     'data': [
         'views/landing_page.xml',
+        # 'views/footer.xml',
         'data/res.partner.csv',
         'data/res.company.csv',
         'data/res.lang.xml',
@@ -42,6 +43,14 @@
         'data/website.page.sql',
         'data/no_update.sql',
     ],
+
+    'assets': {
+        'web.assets_frontend': [
+            'victorikus_web/static/src/js/landing_page.js',
+            'victorikus_web/static/src/css/styles.css',
+        ],
+    },
+
     # only loaded in demonstration mode
     'demo': [
     ],

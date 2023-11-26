@@ -1,2 +1,2 @@
 "id","is_published","is_in_menu","name","website_id","website_indexed","view_id/id","priority","mode","url","is_homepage"
-victorikus_web.landing,True,False,"Victorikus",Victorikus,"True",victorikus_web.landing_page,"16","primary","/","True"
+victorikus_web.landing,True,True,"Victorikus",Victorikus,"True",victorikus_web.landing_page,"16","primary","/","True"
