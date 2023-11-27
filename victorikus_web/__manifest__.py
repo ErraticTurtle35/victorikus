@@ -31,7 +31,6 @@
     # always loaded
     'data': [
         'views/landing_page.xml',
-        # 'views/footer.xml',
         'data/res.partner.csv',
         'data/res.company.csv',
         'data/res.lang.xml',

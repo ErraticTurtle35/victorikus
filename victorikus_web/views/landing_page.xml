@@ -8,28 +8,6 @@
                 <t name="Landing Page" t-name="victorikus_web.landing_page">
                     <t t-call="website.layout">
                         <t t-set="pageName" t-value="landing_page"/>
-                        <!-- Header Section -->
-                        <!--                        <header id="victorikus_header">-->
-                        <!--                            <div class="container">-->
-                        <!--                                <nav class="navbar">-->
-                        <!--                                    <div class="navbar-brand">-->
-                        <!--                                        <a href="/" title="Home">-->
-                        <!--                                            <img src="static/src/images/logo.png" alt="Victorikus Logo"/>-->
-                        <!--                                        </a>-->
-                        <!--                                    </div>-->
-                        <!--                                    <ul class="navbar-nav">-->
-                        <!--                                        <li class="nav-item"><a href="/inicio" class="nav-link">Inicio</a></li>-->
-                        <!--                                        <li class="nav-item"><a href="/galeria" class="nav-link">Galeria</a></li>-->
-                        <!--                                        &lt;!&ndash; More nav items &ndash;&gt;-->
-                        <!--                                    </ul>-->
-                        <!--                                    <div class="contact-info">-->
-                        <!--                                        <span>+391 12345678</span>-->
-                        <!--                                        <span>500 Bs.</span>-->
-                        <!--                                    </div>-->
-                        <!--                                </nav>-->
-                        <!--                            </div>-->
-                        <!--                        </header>-->
-
                         <!-- Main Banner Section -->
                         <section id="victorikus_main_banner">
                             <div class="container">
