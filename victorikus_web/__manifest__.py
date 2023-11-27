@@ -41,6 +41,9 @@
         'data/res.groups.xml',
         'data/website.page.sql',
         'data/no_update.sql',
+
+        # Views
+        'views/build_your_cake_template.xml'
     ],
 
     'assets': {

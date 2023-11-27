@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <template id="build_your_cake" name="Build Your Cake">
+            <t t-call="portal.portal_layout">
+                <h1>Build Your Cake</h1>
+            </t>
+        </template>
+    </data>
+</odoo>
