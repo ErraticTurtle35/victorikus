@@ -1,0 +1,3 @@
+"id",company_id/id,"lang","name","login","login_date","company_ids/id"
+user_vlad,base.main_company,es_ES,Vlad,vlad,"",base.main_company
+user_karla,base.main_company,es_ES,Karla,karla,"",base.main_company

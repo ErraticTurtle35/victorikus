@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="victorikus_web.landing_page">
+            <field name="name">Home</field>
+            <field name="type">qweb</field>
+            <field name="arch" type="xml">
+                <t name="Landing Page" t-name="victorikus_web.landing_page">
+                    <t t-call="website.layout">
+                        <t t-set="pageName" t-value="landing_page"/>
+                        <!-- Main Banner Section -->
+                        <section id="victorikus_main_banner">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-6 banner-text">
+                                        <h1>Diseñando delicias, endulzando tu día</h1>
+                                        <p>En nuestra tienda, puedes elegir el pastel adecuado para cualquier persona,
+                                            de cualquier sabor y color, y para quien desees. ¡Elige!
+                                        </p>
+                                        <a href="/shop" class="btn btn-primary">¡Elegir Torta!</a>
+                                    </div>
+                                    <div class="col-md-6 banner-image">
+                                        <!-- Adjust the src attribute to the path of your cake image -->
+                                        <img src="/victorikus_web/static/src/images/cakeMainBanner.png" alt="Cake"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Carousel Section -->
+                        <section id="victorikus_cake_selection">
+                            <div class="container">
+                                <h2>Elige tu pastel más delicioso</h2>
+                                <div class="cake-category-links">
+                                    <a href="#" class="category-link">Para la niña</a>
+                                    <a href="#" class="category-link">Para el niño</a>
+                                    <a href="#" class="category-link">Para la mujer</a>
+                                    <a href="#" class="category-link">Para el hombre</a>
+                                    <a href="#" class="category-link">Para casarse</a>
+                                    <a href="#" class="category-link">Temáticos</a>
+                                </div>
+                                <div id="cakeCarousel" class="carousel">
+                                    <!-- Carousel Navigation -->
+                                    <div class="carousel-nav">
+                                        <a class="carousel-control-prev">&lt;</a>
+                                        <a class="carousel-control-next">&gt;</a>
+                                    </div>
+                                    <!-- Carousel Items -->
+                                    <div class="carousel-items">
+                                        <div class="carousel-item active">
+                                            <img src="/victorikus_web/static/src/images/torta1.png" alt="Cake 1"/>
+                                        </div>
+                                        <div class="carousel-item active">
+                                            <img src="victorikus_web/static/src/images/torta2.png" alt="Cake 2"/>
+                                        </div>
+                                        <div class="carousel-item active">
+                                            <img src="/victorikus_web/static/src/images/torta3.png" alt="Cake 3"/>
+                                        </div>
+                                        <div class="carousel-item active">
+                                            <img src="/victorikus_web/static/src/images/torta4.png" alt="Cake 4"/>
+                                        </div>
+                                        <!-- Repeat for each cake -->
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section id="trust_section" class="pt-5 pb-5">
+                            <div class="container">
+                                <h2 class="text-center mb-4" id="trust_section_title">¿Por qué puedes confiar en
+                                    nosotros?
+                                </h2>
+                                <p class="text-center mb-5">Cómo se toman sus pedidos con nosotros</p>
+
+                                <!-- Process Flow -->
+                                <div class="process-flow d-flex justify-content-around align-items-start mb-5">
+                                    <div class="process-step">
+                                        <div class="step-number">1</div>
+                                        <h3>Confirmamos el pedido</h3>
+                                        <p>Aceptamos su pedido y le llamaremos para confirmar el relleno deseado de la
+                                            torta
+                                        </p>
+                                    </div>
+
+                                    <div class="process-step">
+                                        <div class="step-number">2</div>
+                                        <h3>Preparamos la torta</h3>
+                                        <p>Preparamos pasteles teniendo en cuenta sus preferencias</p>
+                                    </div>
+
+                                    <div class="process-step">
+                                        <div class="step-number">3</div>
+                                        <h3>Enviamos el pedido</h3>
+                                        <p>Enviamos los productos preparados a través de un servicio de mensajería u
+                                            otro método conveniente
+                                        </p>
+                                    </div>
+
+                                    <div class="process-step">
+                                        <div class="step-number">4</div>
+                                        <h3>Recepción del pedido</h3>
+                                        <p>Le informarán cuando su pedido esté listo para ser recogido
+                                        </p>
+                                    </div>
+                                    <!-- Repeat for steps 2, 3, and 4 -->
+                                </div>
+
+                                <!-- Reviews -->
+                                <h3 class="text-center mb-4 element-with-distantfeeling">Reseñas</h3>
+                                <div class="reviews d-flex justify-content-around align-items-center">
+                                    <div class="review-item">
+                                        <img src="/victorikus_web/static/src/images/alexanderSmirnoff.jpg"
+                                             alt="Reviewer 1" class="review-image"/>
+                                        <p class="review-text">"Hice un pedido de la torta de fresa de Victorikus para
+                                            el cumpleaños de mi hija, y fue un éxito total! La torta estaba
+                                            increíblemente deliciosa y todos los invitados quedaron impresionados.
+                                            ¡Definitivamente volveré a ordenar!"
+                                        </p>
+                                        <p class="reviewer-name">- Alexander Smirnoff</p>
+                                    </div>
+                                    <div class="review-item">
+                                        <img src="/victorikus_web/static/src/images/elenaSmirnoff.jpg" alt="Reviewer 2"
+                                             class="review-image"/>
+                                        <p class="review-text">"No hay mejor lugar para disfrutar de un auténtico pay
+                                            que en Victorikus. Probé el pay de manzana y quedé asombrada por el sabor
+                                            casero y la textura perfecta. Sin duda, esta pastelería se ha convertido en
+                                            mi lugar favorito para postres."
+                                        </p>
+                                        <p class="reviewer-name">- Elena Smirnoff</p>
+                                    </div>
+                                    <div class="review-item">
+                                        <img src="/victorikus_web/static/src/images/pedroSivir.jpg" alt="Reviewer 3"
+                                             class="review-image"/>
+                                        <p class="review-text">"Los tres leches de Victorikus son incomparables. Cada
+                                            bocado es como un pedacito de cielo. Además, el servicio al cliente es
+                                            excepcional. ¡Recomiendo encarecidamente esta pastelería para satisfacer tus
+                                            antojos de postres!"
+                                        </p>
+                                        <p class="reviewer-name">- Pedro Sivir</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section id="cake_gallery" class="cake-gallery py-5">
+                            <div class="container">
+                                <h2 class="gallery-title text-center mb-4">Mira las fotos de las tortas más deliciosas
+                                </h2>
+                                <div class="gallery d-flex flex-wrap justify-content-center">
+                                    <!-- Gallery item -->
+                                    <div class="gallery-item m-2">
+                                        <img src="/victorikus_web/static/src/images/torta1.png" alt="Delicious Cake"
+                                             class="gallery-image"/>
+                                    </div>
+                                    <div class="gallery-item m-2">
+                                        <img src="/victorikus_web/static/src/images/torta2.png" alt="Delicious Cake"
+                                             class="gallery-image"/>
+                                    </div>
+                                    <div class="gallery-item m-2">
+                                        <img src="/victorikus_web/static/src/images/torta3.png" alt="Delicious Cake"
+                                             class="gallery-image"/>
+                                    </div>
+                                    <div class="gallery-item m-2">
+                                        <img src="/victorikus_web/static/src/images/torta4.png" alt="Delicious Cake"
+                                             class="gallery-image"/>
+                                    </div>
+                                    <div class="gallery-item m-2">
+                                        <img src="/victorikus_web/static/src/images/torta5.png" alt="Delicious Cake"
+                                             class="gallery-image"/>
+                                    </div>
+                                    <div class="gallery-item m-2">
+                                        <img src="/victorikus_web/static/src/images/torta6.png" alt="Delicious Cake"
+                                             class="gallery-image"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section id="custom_cake_builder" class="custom-cake-builder">
+                            <div class="container">
+                                <div class="row align-items-center"> <!-- This ensures vertical alignment -->
+                                    <div class="col-md-6 content-section">
+                                        <h2>Construye tu torta ideal</h2>
+                                        <p>¡Crea la torta de tus sueños en Victorikus! Personaliza cada detalle con
+                                            nuestro exclusivo 'Arma tu Torta'. Comienza ahora y deleita tus sentidos con
+                                            una experiencia de pastelería única. ¡Arma tu torta y haz tus deseos dulces
+                                            realidad!
+                                        </p>
+                                        <a href="/arma-tu-torta" class="btn btn-primary">¡Arma tu torta!</a>
+                                    </div>
+                                    <div class="col-md-6 image-section">
+                                        <img src="/victorikus_web/static/src/images/featuredCake.png" alt="Construye tu torta"
+                                             class="featured-cake-image"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                    </t>
+                </t>
+            </field>
+        </record>
+    </data>
+</odoo>

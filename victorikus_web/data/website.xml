@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data noupdate="True">
+        <record id="website.default_website" model="website">
+            <field name="name">Victorikus</field>
+            <field name="domain" eval="False"/> <!-- Cambiado a eval="False" si el dominio es NaN -->
+            <field name="default_lang_id" ref="base.lang_es"/>
+            <field name="theme_id" eval="False"/> <!-- Cambiado a eval="False" si theme_id es NaN -->
+            <field name="language_ids" eval="[(4, ref('base.lang_es'))]"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+    </data>
+</odoo>

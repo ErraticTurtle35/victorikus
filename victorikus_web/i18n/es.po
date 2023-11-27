@@ -1,0 +1,26 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* victorikus_web
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-01 00:13+0000\n"
+"PO-Revision-Date: 2023-11-01 00:13+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: victorikus_web
+#: model:website,contact_us_button_url:victorikus_web.victorikus_website
+msgid "/contactus"
+msgstr ""
+
+#. module: victorikus_web
+#: model:website,prevent_zero_price_sale_text:victorikus_web.victorikus_website
+msgid "Not Available For Sale"
+msgstr ""
