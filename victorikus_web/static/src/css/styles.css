@@ -1,6 +1,18 @@
 
 /*Header Styles*/
 
+header#top .navbar-brand img {
+    max-width: 55% !important;
+    margin-top: 5px;
+}
+
+
+#top_menu_container > a > span {
+    max-width: 400px !important; /* Adjust the value as needed */
+    display: inline-block !important; /* Ensure the span doesn't take up the full width */
+    overflow: hidden !important; /* Hide any overflow beyond the specified max-width */
+}
+
 .navbar .btn:hover {
     background-color: #DF3A79 !important;
     border-color: #FFDFE7 !important;
