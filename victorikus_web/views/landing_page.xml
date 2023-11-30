@@ -28,42 +28,7 @@
                         </section>
 
                         <!-- Carousel Section -->
-                        <section id="victorikus_cake_selection">
-                            <div class="container">
-                                <h2>Elige tu pastel más delicioso</h2>
-                                <div class="cake-category-links">
-                                    <a href="#" class="category-link">Para la niña</a>
-                                    <a href="#" class="category-link">Para el niño</a>
-                                    <a href="#" class="category-link">Para la mujer</a>
-                                    <a href="#" class="category-link">Para el hombre</a>
-                                    <a href="#" class="category-link">Para casarse</a>
-                                    <a href="#" class="category-link">Temáticos</a>
-                                </div>
-                                <div id="cakeCarousel" class="carousel">
-                                    <!-- Carousel Navigation -->
-                                    <div class="carousel-nav">
-                                        <a class="carousel-control-prev">&lt;</a>
-                                        <a class="carousel-control-next">&gt;</a>
-                                    </div>
-                                    <!-- Carousel Items -->
-                                    <div class="carousel-items">
-                                        <div class="carousel-item active">
-                                            <img src="/victorikus_web/static/src/images/torta1.png" alt="Cake 1"/>
-                                        </div>
-                                        <div class="carousel-item active">
-                                            <img src="victorikus_web/static/src/images/torta2.png" alt="Cake 2"/>
-                                        </div>
-                                        <div class="carousel-item active">
-                                            <img src="/victorikus_web/static/src/images/torta3.png" alt="Cake 3"/>
-                                        </div>
-                                        <div class="carousel-item active">
-                                            <img src="/victorikus_web/static/src/images/torta4.png" alt="Cake 4"/>
-                                        </div>
-                                        <!-- Repeat for each cake -->
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
+                        
 
                         <section id="trust_section" class="pt-5 pb-5">
                             <div class="container">
@@ -189,7 +154,8 @@
                                         <a href="/arma-tu-torta" class="btn btn-primary">¡Arma tu torta!</a>
                                     </div>
                                     <div class="col-md-6 image-section">
-                                        <img src="/victorikus_web/static/src/images/featuredCake.png" alt="Construye tu torta"
+                                        <img src="/victorikus_web/static/src/images/featuredCake.png"
+                                             alt="Construye tu torta"
                                              class="featured-cake-image"/>
                                     </div>
                                 </div>
