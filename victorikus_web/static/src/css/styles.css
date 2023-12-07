@@ -223,6 +223,10 @@ span[data-oe-type="monetary"] {
 
 /*Image Gallery Styles*/
 
+.s_image_gallery.o_masonry.o_spc-small[data-vcss="001"] div.o_masonry_col > img, .s_image_gallery.o_masonry.o_spc-small[data-vcss="001"] div.o_masonry_col > a > img {
+    border-radius: 15px;
+}
+
 #image_gallery_title {
     color: #E71F4D;
     font-family: 'Montserrat', sans-serif;

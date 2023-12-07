@@ -22,7 +22,7 @@
     'version': '1.0.0',
 
     # any module necessary for this one to work correctly
-    'depends': ['base', 'website', 'website_sale', 'website_sale_stock', 'account', 'stock', 'contacts'],
+    'depends': ['base', 'website', 'website_sale', 'website_sale_stock', 'account', 'stock', 'contacts', 'sale_management'],
 
     'installable': True,
 
