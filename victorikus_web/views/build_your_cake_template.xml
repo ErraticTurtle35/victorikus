@@ -4,6 +4,11 @@
         <template id="build_your_cake" name="Build Your Cake">
             <t t-call="portal.portal_layout">
                 <h1>Build Your Cake</h1>
+                <div>
+                    <t t-component="victorikus_web.buildYourCakeComponent">
+                        Hi!
+                    </t>
+                </div>
             </t>
         </template>
     </data>

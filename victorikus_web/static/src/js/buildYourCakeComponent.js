@@ -1,14 +1,15 @@
-odoo.define('victorikus_web.buildYourCake', function (require) {
+odoo.define('victorikus_web.buildYourCakeComponent', function (require) {
     "use strict";
 
     const {Component} = require('@odoo/owl');
 
     class BuildYourCakeComponent extends Component {
-        static template = "victorikus_web.BuildYourCakeComponent";
-
         setup() {
             console.log("setup: BuildYourCakeComponent");
         }
     }
+
+    BuildYourCakeComponent.template = "victorikus_web.buildYourCakeComponentTemplate";
+    return BuildYourCakeComponent;
 });
 
