@@ -48,9 +48,10 @@
 
     'assets': {
         'web.assets_frontend': [
-            'victorikus_web/static/src/js/buildYourCakeComponent.js',
             'victorikus_web/static/src/js/landing_page.js',
             'victorikus_web/static/src/css/styles.css',
+
+            'victorikus_web/static/src/js/BuildYourCakeApp.js',
         ],
     },
 
