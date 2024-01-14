@@ -22,7 +22,7 @@
     'version': '1.0.0',
 
     # any module necessary for this one to work correctly
-    'depends': ['base', 'website', 'website_sale', 'website_sale_stock', 'account', 'stock', 'contacts'],
+    'depends': ['base', 'web', 'website', 'website_sale', 'website_sale_stock', 'account', 'stock', 'contacts'],
 
     'installable': True,
 
@@ -54,6 +54,9 @@
             'victorikus_web/static/src/js/BuildYourCakeApp.js',
         ],
     },
+    'qweb': [
+        'victorikus_web/static/src/xml/BuildYourCakeApp.xml',
+    ],
 
     # only loaded in demonstration mode
     'demo': [

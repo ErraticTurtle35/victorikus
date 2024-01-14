@@ -2,7 +2,65 @@
 <odoo>
     <templates>
         <t t-name="victorikus_web.BuildYourCakeApp" owl="1">
-            <h1>Build Your Cake</h1>
+            <div class="container col-lg-12">
+                <h1>Build Your Cake</h1>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h2>Step: 1</h2>
+
+                        <p>Shape</p>
+                        <div class="container mt-5">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="shapeRadios" id="shapeSquare"
+                                       value="square" checked="checked"/>
+                                <label class="form-check-label" for="shapeSquare">
+                                    Square
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="shapeRadios" id="shapeRound"
+                                       value="round"/>
+                                <label class="form-check-label" for="shapeRound">
+                                    Round
+                                </label>
+                            </div>
+                        </div>
+
+                        <p>Size:</p>
+                        <div class="col-lg-3">
+                            <select class="form-control">
+                                <option value="">Select an option</option>
+                                <option value="option1">Option 1</option>
+                                <option value="option2">Option 2</option>
+                                <option value="option3">Option 3</option>
+                            </select>
+                        </div>
+
+                        <p>Color</p>
+                        <div class="container mt-5">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="colorRadios" id="colorRed"
+                                       value="red" checked="checked"/>
+                                <label class="form-check-label" for="colorRed">
+                                    Red
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="colorRadios" id="colorBlue"
+                                       value="blue"/>
+                                <label class="form-check-label" for="colorBlue">
+                                    Blue
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="container mt-5">
+                            <button type="button" class="btn btn-primary">Click Me!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </t>
     </templates>
 </odoo>
