@@ -12,14 +12,14 @@
                         <div class="container mt-5">
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="shapeRadios" id="shapeSquare"
-                                       value="square" checked="checked"/>
+                                       value="square" checked="checked" t-on-change="updateShape"/>
                                 <label class="form-check-label" for="shapeSquare">
                                     Square
                                 </label>
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="shapeRadios" id="shapeRound"
-                                       value="round"/>
+                                       value="round" t-on-change="updateShape"/>
                                 <label class="form-check-label" for="shapeRound">
                                     Round
                                 </label>
@@ -56,7 +56,8 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="container mt-5">
-                            <button type="button" class="btn btn-primary">Click Me!</button>
+                            A <t t-esc="state.color"/> <t t-esc="state.shape"/> of <t t-esc="state.size"/> cake!
+                            <button type="button" class="btn btn-primary" t-on-click="resetCake">Click Me!</button>
                         </div>
                     </div>
                 </div>
