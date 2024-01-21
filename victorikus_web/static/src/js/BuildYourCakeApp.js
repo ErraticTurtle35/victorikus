@@ -10,18 +10,28 @@ odoo.define('victorikus_web.BuildYourCakeApp', function (require) {
             console.log("BuildYourCakeApp, setup")
         }
 
-        state = useState({step: 1, shape: 'square', size: 'option1', color: 'red'});
+        state = useState({step: 1, shape: 'square', size: '25cm', color: 'red'});
+
+        updateSize(event) {
+            console.log('updateSize');
+            this.state.size = event.target.value;
+        }
 
         updateShape(event) {
             console.log('updateShape');
             this.state.shape = event.target.value;
         }
 
+        updateColor(event) {
+            console.log('updateColor');
+            this.state.color = event.target.value;
+        }
+
         resetCake() {
             console.log('resetCake');
             this.state.step = 1;
             this.state.shape = 'square';
-            this.state.size = 'option1';
+            this.state.size = '25cm';
             this.state.color = 'red';
         }
     }

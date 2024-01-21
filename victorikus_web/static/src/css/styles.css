@@ -1,4 +1,3 @@
-
 /*Header Styles*/
 
 .navbar .btn:hover {
@@ -43,97 +42,97 @@ header#top .navbar-brand img {
 }
 
 @font-face {
-  font-family: 'Montserrat';
-  src: url('/victorikus_web/static/src/fonts/Montserrat.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'Montserrat';
+    src: url('/victorikus_web/static/src/fonts/Montserrat.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 /*!* Distantfeeling Font Face Declaration *!*/
 @font-face {
-  font-family: 'Distantfeeling';
-  src: url('/victorikus_web/static/src/fonts/Distantfeeling.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'Distantfeeling';
+    src: url('/victorikus_web/static/src/fonts/Distantfeeling.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 /* Base Styles */
 p, h2, body, button, input, textarea {
-  font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Specific element styles where 'Distantfeeling' font is needed */
 .element-with-distantfeeling {
-  font-family: 'Distantfeeling', sans-serif;
+    font-family: 'Distantfeeling', sans-serif;
 }
 
 
 /* Main Banner Styles */
 #victorikus_main_banner {
-  background-image: url('/victorikus_web/static/src/images/background1.jpg');
-  background-size: cover;
-  text-align: center;
-  /* Additional main banner styles */
+    background-image: url('/victorikus_web/static/src/images/background1.jpg');
+    background-size: cover;
+    text-align: center;
+    /* Additional main banner styles */
 }
 
 #victorikus_main_banner {
-  background-color: #FBE0E6; /* Or the specific shade of pink from your design */
-  padding: 50px 0;
+    background-color: #FBE0E6; /* Or the specific shade of pink from your design */
+    padding: 50px 0;
 }
 
 #victorikus_main_banner .container {
-  max-width: 1140px; /* Adjust as per your design requirements */
+    max-width: 1140px; /* Adjust as per your design requirements */
 }
 
 #victorikus_main_banner .row {
-  align-items: center; /* Aligns text and image vertically */
+    align-items: center; /* Aligns text and image vertically */
 }
 
 .banner-text h1 {
-  font-family: 'Distantfeeling', sans-serif;
-  color: #FFFFFF; /* Adjust based on your design */
-  font-size: 48px; /* Adjust the font size based on your design */
-  margin-bottom: 20px;
+    font-family: 'Distantfeeling', sans-serif;
+    color: #FFFFFF; /* Adjust based on your design */
+    font-size: 48px; /* Adjust the font size based on your design */
+    margin-bottom: 20px;
 }
 
 .banner-text p {
-  font-family: 'Montserrat', sans-serif;
-  color: #FFFFFF; /* Adjust based on your design */
-  font-size: 20px; /* Adjust the font size based on your design */
-  margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF; /* Adjust based on your design */
+    font-size: 20px; /* Adjust the font size based on your design */
+    margin-bottom: 30px;
 }
 
 .banner-text .btn-primary {
-  background-color: #D1416B; /* Adjust the button color based on your design */
-  border: none;
-  padding: 15px 30px;
-  border-radius: 50px;
-  font-family: 'Montserrat', sans-serif;
-  text-transform: uppercase;
-  font-size: 18px;
-  color: white;
-  text-decoration: none;
-  transition: background-color 0.3s;
+    background-color: #D1416B; /* Adjust the button color based on your design */
+    border: none;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s;
 }
 
 .banner-text .btn-primary:hover {
-  background-color: #C72C5B; /* Darker shade for hover state */
+    background-color: #C72C5B; /* Darker shade for hover state */
 }
 
 .banner-image img {
-  width: 100%;
-  max-width: 540px; /* Adjust based on your design */
-  height: auto;
-  display: block; /* To center the image if it's not full width */
-  margin-left: auto; /* Aligns the image to the right */
+    width: 100%;
+    max-width: 540px; /* Adjust based on your design */
+    height: auto;
+    display: block; /* To center the image if it's not full width */
+    margin-left: auto; /* Aligns the image to the right */
 }
 
 /* Cake Selection Carousel */
 
 #victorikus_cake_selection {
-  background-color: #fcdfe8; /* Or the specific pink shade from your design */
-  padding: 2rem 0;
-  text-align: center;
+    background-color: #fcdfe8; /* Or the specific pink shade from your design */
+    padding: 2rem 0;
+    text-align: center;
 }
 
 #victorikus_cake_selection h2 {
@@ -143,62 +142,62 @@ p, h2, body, button, input, textarea {
 }
 
 .cake-category-links {
-  margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 .category-link {
-  font-family: 'Montserrat', sans-serif;
-  background-color: #F13D68; /* Example pink color; replace with the specific pink you want */
-  color: #FFFFFF; /* White text color */
-  text-decoration: none;
-  padding: .5rem 1rem;
-  margin: 0 .5rem;
-  display: inline-block;
-  border-radius: 25px; /* Pill shape */
-  border: none; /* Remove border if not needed */
-  cursor: pointer; /* Changes the mouse cursor to a pointer on hover */
-  transition: background-color 0.3s ease; /* Smooth background color transition on hover */
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F13D68; /* Example pink color; replace with the specific pink you want */
+    color: #FFFFFF; /* White text color */
+    text-decoration: none;
+    padding: .5rem 1rem;
+    margin: 0 .5rem;
+    display: inline-block;
+    border-radius: 25px; /* Pill shape */
+    border: none; /* Remove border if not needed */
+    cursor: pointer; /* Changes the mouse cursor to a pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth background color transition on hover */
 }
 
 .category-link:hover {
-  background-color: #E71F4D; /* A slightly darker pink on hover; adjust as needed */
+    background-color: #E71F4D; /* A slightly darker pink on hover; adjust as needed */
 }
 
 .carousel {
-  position: relative;
+    position: relative;
 }
 
 .carousel-nav {
-  display: flex;
-  justify-content: space-between;
-  position: absolute;
-  width: 100%;
-  top: 50%;
-  transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .carousel-control-prev, .carousel-control-next {
-  background-color: #333; /* Replace with appropriate color */
-  color: #fff;
-  padding: .5rem;
-  border-radius: 50%;
-  cursor: pointer;
+    background-color: #333; /* Replace with appropriate color */
+    color: #fff;
+    padding: .5rem;
+    border-radius: 50%;
+    cursor: pointer;
 }
 
 .carousel-items {
-  display: flex;
-  overflow-x: auto; /* Allows side-scrolling for overflow content */
+    display: flex;
+    overflow-x: auto; /* Allows side-scrolling for overflow content */
 }
 
 .carousel-item {
-  min-width: 300px; /* Adjust to your preferred size */
-  margin: 0 10px;
+    min-width: 300px; /* Adjust to your preferred size */
+    margin: 0 10px;
 }
 
 .carousel-item img {
-  width: 100%; /* Make images responsive */
-  height: auto;
-  border-radius: 10px; /* Optional: if you want rounded corners */
+    width: 100%; /* Make images responsive */
+    height: auto;
+    border-radius: 10px; /* Optional: if you want rounded corners */
 }
 
 /* Trust Section Styles */
@@ -339,16 +338,16 @@ p, h2, body, button, input, textarea {
 }
 
 .custom-cake-builder .btn-primary {
-  background-color: #D1416B; /* Adjust the button color based on your design */
-  border: none;
-  padding: 15px 30px;
-  border-radius: 50px;
-  font-family: 'Montserrat', sans-serif;
-  text-transform: uppercase;
-  font-size: 18px;
-  color: white;
-  text-decoration: none;
-  transition: background-color 0.3s;
+    background-color: #D1416B; /* Adjust the button color based on your design */
+    border: none;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s;
 }
 
 .custom-cake-builder .image-section {
@@ -360,4 +359,8 @@ p, h2, body, button, input, textarea {
     height: auto;
     border-radius: 10px; /* Optional: if you want rounded corners for the image */
 }
+
+/* Build your cake*/
+
+
 
