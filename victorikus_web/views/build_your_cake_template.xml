@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <template id="build_your_cake" name="Build Your Cake">
+            <t t-call="web.frontend_layout">
+                <div class="oe_structure">
+                    <div id="wrap" class="container">
+                        <div id="BuildYourCakeApp"></div>
+                    </div>
+                </div>
+            </t>
+        </template>
+    </data>
+</odoo>

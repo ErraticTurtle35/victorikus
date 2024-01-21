@@ -22,7 +22,7 @@
     'version': '1.0.0',
 
     # any module necessary for this one to work correctly
-    'depends': ['base', 'website', 'website_sale', 'website_sale_stock', 'account', 'stock', 'contacts'],
+    'depends': ['base', 'web', 'website', 'website_sale', 'website_sale_stock', 'account', 'stock', 'contacts'],
 
     'installable': True,
 
@@ -41,14 +41,22 @@
         'data/res.groups.xml',
         'data/website.page.sql',
         'data/no_update.sql',
+
+        # Views
+        'views/build_your_cake_template.xml'
     ],
 
     'assets': {
         'web.assets_frontend': [
             'victorikus_web/static/src/js/landing_page.js',
             'victorikus_web/static/src/css/styles.css',
+
+            'victorikus_web/static/src/js/BuildYourCakeApp.js',
         ],
     },
+    'qweb': [
+        'victorikus_web/static/src/xml/BuildYourCakeApp.xml',
+    ],
 
     # only loaded in demonstration mode
     'demo': [

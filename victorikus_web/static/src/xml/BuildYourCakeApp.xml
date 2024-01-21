@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <templates>
+        <t t-name="victorikus_web.BuildYourCakeApp" owl="1">
+            <div class="container col-lg-12 mt-5">
+                <h1 class="text-center mb-4">Build Your Cake</h1>
+                <div class="card p-4 rounded">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="step-container">
+                                <h2>Step: 1</h2>
+
+                                <div class="form-group mt-4">
+                                    <b><label>Shape:</label></b>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="shapeRadios" id="shapeSquare"
+                                               value="square" checked="checked" t-on-change="updateShape"/>
+                                        <label class="form-check-label" for="shapeSquare">
+                                            Square
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="shapeRadios" id="shapeRound"
+                                               value="round" t-on-change="updateShape"/>
+                                        <label class="form-check-label" for="shapeRound">
+                                            Round
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="form-group mt-4">
+                                    <b><label for="cakeSize">Size:</label></b>
+                                    <select class="form-control" id="cakeSize" t-on-change="updateSize">
+                                        <option value="">Select an option</option>
+                                        <option value="25cm">25 cm</option>
+                                        <option value="31cm">31 cm</option>
+                                        <option value="39cm">39 cm</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group mt-4">
+                                    <b><label>Color:</label></b>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="colorRadios" id="colorRed"
+                                               value="red" checked="checked" t-on-change="updateColor"/>
+                                        <label class="form-check-label" for="colorRed">
+                                            Red
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="colorRadios" id="colorBlue"
+                                               value="blue" t-on-change="updateColor"/>
+                                        <label class="form-check-label" for="colorBlue">
+                                            Blue
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="result-container mt-4 p-3">
+                                A <t t-esc="state.color"/> <t t-esc="state.shape"/> of <t t-esc="state.size"/> cake!
+                                <button type="button" class="btn btn-primary mt-3" t-on-click="resetCake">Click Me!</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </templates>
+</odoo>
